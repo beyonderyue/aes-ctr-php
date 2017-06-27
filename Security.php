@@ -1,8 +1,8 @@
 <?PHP 
 /*
  用法：
- Security::encrypt($str,$key);
- Security::decrypt($str,$key);
+ Security::encrypt($str,$iv,$key);
+ Security::decrypt($str,$iv,$key);
  */
 class Security {
     public static function encrypt($input, $iv, $key) {
